@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone Code') {
       steps {
-        git branch: 'main', url: 'https://github.com/hax147/mern-devops-app.git' 
+        git branch: 'main', url: 'https://github.com/hax147/mern-devops-app.git'
       }
     }
 
@@ -15,3 +15,4 @@ pipeline {
 }
 }
 }
+
