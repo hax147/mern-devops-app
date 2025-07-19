@@ -8,10 +8,10 @@ pipeline {
       }
     }
 
-    stage('Build & Run with Docker Compose') {
-      steps {
-        sh 'docker-compose up --build -d'
-      }
-    }
+ stage('Build & Run with Docker Compose') {
+  steps {
+    sh 'docker compose up --build -d'
   }
+}
+}
 }
